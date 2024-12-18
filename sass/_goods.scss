@@ -1,0 +1,129 @@
+.goods {
+    background-color: $black;
+    width: 100%;
+    min-height: 1267px;
+    margin-top: 0px;
+    margin: auto;
+    .container {
+        .goods_catalogue {
+            height: 26px;
+            max-width: 597px;
+            padding-top: 47px;
+            
+            a{
+                text-decoration: none;
+            }
+
+            ul {
+                text-decoration: none;
+                display: flex;
+                justify-content: space-between;
+                margin: auto;
+                flex-wrap: wrap;
+
+                li {
+                    font-family: "Raleway", sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 23.48px;
+                    color: $grey;
+
+                    &:hover {
+                        color: $green;
+                    }
+                }
+            }
+        }
+
+        .cards {
+            min-height: 1035px;
+            width: auto;
+            display: grid;
+            grid-template-columns: 350px 350px 350px;
+            grid-template-rows: 498px 498px;
+            gap: 60px;
+            margin-top: 74px;
+
+            .card {
+
+                .burger_image {
+                    max-height: 350px;
+                    min-height: 350px;
+                    background-image: url(/Images/burger_image.png);
+                    background-size: cover;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    
+                    p{
+                        display: none;
+                    }
+
+                    button {
+                        width: 190px;
+                        height: 60px;
+                        background-color: $green;
+                        font-family: "Raleway", sans-serif;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 28.18px;
+                        color: $white;
+                        border: none;
+
+                        &:hover{
+                            background-color: aqua;
+                            color: orangered;
+                        }
+                    }
+                }
+
+                .burger_image:hover{
+                    background-image: url(/Images/green_background_image.png), url(/Images/burger_image.png);
+                    button{
+                        display: none;
+                    }
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    a{
+                        text-decoration: none;
+                    }
+
+                    p{
+                        display: inline;
+                        text-align: center;
+
+                        
+                    }
+
+                }
+
+                h2 {
+                    margin-top: 36px;
+                    margin-bottom: 7px;
+                    color: $green;
+                    font-family: "Raleway", sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28.18px;
+                }
+
+                p {
+                    color: $white;
+                    font-family: "Raleway", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 23px;
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+}

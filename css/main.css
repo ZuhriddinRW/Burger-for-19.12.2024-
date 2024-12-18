@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  flex-wrap: wrap;
+}
+
+.cards {
+  flex-wrap: wrap;
+}
+
+header {
+  min-height: 768px;
+  background-image: url(/Images/header_background_image.png);
+  background-size: cover;
+  margin: auto;
+}
+header .container {
+  min-height: 90px;
+  margin: auto;
+}
+header .container nav {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container nav a {
+  text-decoration: none;
+}
+header .container nav .logo {
+  width: 160px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #4E9F0D;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container nav .logo p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+}
+header .container nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .container nav ul #purchase {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .container nav ul li {
+  color: #4E9F0D;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.13px;
+  height: 90px;
+  width: 127px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+header .container nav ul li:hover {
+  background-color: #4E9F0D;
+  color: white;
+}
+header .container .big_hamburger {
+  width: auto;
+  min-height: 393px;
+  margin-top: 150px;
+}
+header .container .big_hamburger h1 {
+  color: #4E9F0D;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 84.53px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+header .container .big_hamburger span {
+  color: #4E9F0D;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42.26px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+header .container .big_hamburger p {
+  color: white;
+  max-width: 1169px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  margin-bottom: 52px;
+  font-family: "Raleway", sans-serif;
+}
+header .container .big_hamburger button {
+  width: 350px;
+  height: 100px;
+  background-color: #4E9F0D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 70.44px;
+  font-family: "Raleway", sans-serif;
+}
+header .container .big_hamburger button:hover {
+  background-color: aqua;
+  color: orangered;
+}
+
+.container {
+  width: 87%;
+  height: auto;
+  margin: auto;
+}
+
+.goods {
+  background-color: black;
+  width: 100%;
+  min-height: 1267px;
+  margin-top: 0px;
+  margin: auto;
+}
+.goods .container .goods_catalogue {
+  height: 26px;
+  max-width: 597px;
+  padding-top: 47px;
+}
+.goods .container .goods_catalogue a {
+  text-decoration: none;
+}
+.goods .container .goods_catalogue ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.goods .container .goods_catalogue ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.48px;
+  color: #7A7A7A;
+}
+.goods .container .goods_catalogue ul li:hover {
+  color: #4E9F0D;
+}
+.goods .container .cards {
+  min-height: 1035px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 498px 498px;
+  gap: 60px;
+  margin-top: 74px;
+}
+.goods .container .cards .card .burger_image {
+  max-height: 350px;
+  min-height: 350px;
+  background-image: url(/Images/burger_image.png);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.goods .container .cards .card .burger_image p {
+  display: none;
+}
+.goods .container .cards .card .burger_image button {
+  width: 190px;
+  height: 60px;
+  background-color: #4E9F0D;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.18px;
+  color: white;
+  border: none;
+}
+.goods .container .cards .card .burger_image button:hover {
+  background-color: aqua;
+  color: orangered;
+}
+.goods .container .cards .card .burger_image:hover {
+  background-image: url(/Images/green_background_image.png), url(/Images/burger_image.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goods .container .cards .card .burger_image:hover button {
+  display: none;
+}
+.goods .container .cards .card .burger_image:hover a {
+  text-decoration: none;
+}
+.goods .container .cards .card .burger_image:hover p {
+  display: inline;
+  text-align: center;
+}
+.goods .container .cards .card h2 {
+  margin-top: 36px;
+  margin-bottom: 7px;
+  color: #4E9F0D;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+}
+.goods .container .cards .card p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.universal {
+  min-height: 559px;
+  width: 100%;
+  background-image: url(/Images/universal_background_image.png);
+  background-size: cover;
+  padding-top: 42px;
+}
+.universal h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.26px;
+  text-align: center;
+  color: #4E9F0D;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+.universal hr {
+  height: 1px;
+  max-width: 202px;
+  margin: auto;
+  margin-bottom: 46px;
+  background-color: #4E9F0D;
+}
+.universal span {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+  margin-bottom: 25px;
+}
+.universal p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  max-width: 1116px;
+  min-height: 216px;
+}
+
+.outstation {
+  min-height: 634px;
+  width: 100%;
+  background-color: black;
+  padding-top: 44px;
+  margin-top: 0px;
+}
+.outstation h4 {
+  color: #4E9F0D;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  text-align: center;
+  padding-bottom: 46px;
+  max-width: 318px;
+  min-height: 42px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+footer {
+  min-height: 253px;
+  max-width: 100%;
+  background-color: black;
+}
+footer .container {
+  padding-top: 44px;
+}
+footer .container .with_phone_number {
+  display: flex;
+  justify-content: space-between;
+  min-height: 30px;
+  align-items: center;
+}
+footer .container .with_phone_number button {
+  background-color: #4E9F0D;
+  color: white;
+  border: none;
+  max-width: 160px;
+  height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  text-transform: uppercase;
+}
+footer .container .with_phone_number p {
+  color: #4E9F0D;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+}
+footer .container .footer_links {
+  min-height: 23px;
+  max-width: 695px;
+  margin: auto;
+  margin-top: 52px;
+  margin-bottom: 34px;
+}
+footer .container .footer_links a {
+  text-decoration: none;
+}
+footer .container .footer_links ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer_links ul li {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.13px;
+}
+footer .container .footer_links ul li:hover {
+  color: red;
+}
+footer .container .reason {
+  width: 100%;
+  min-height: 23px;
+}
+footer .container .reason p {
+  color: white;
+  opacity: 0.3;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 18.78px;
+  text-align: center;
+  padding-bottom: 47px;
+}/*# sourceMappingURL=main.css.map */
