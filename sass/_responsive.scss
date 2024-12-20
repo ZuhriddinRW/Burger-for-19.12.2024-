@@ -1,0 +1,62 @@
+@media screen and (min-width: 1260px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    header {
+        padding-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 837px) {
+
+    header {
+        z-index: 99;
+    }
+
+    .links {
+        display: none;
+    }
+
+    header {
+        padding-top: 40px;
+    }
+
+    .goods {
+        padding-bottom: 50px;
+    }
+
+    .for_phone{
+        display: inline;
+    }
+}
+
+@media screen and(max-width: 660px) {
+    footer ul li{
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 30px;
+        text-align: center;
+}
+
+    footer ul{
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+
+
+

@@ -4,13 +4,17 @@
     min-height: 1267px;
     margin-top: 0px;
     margin: auto;
+
     .container {
         .goods_catalogue {
             height: 26px;
             max-width: 597px;
             padding-top: 47px;
-            
-            a{
+            margin-bottom: 87px;
+            margin: auto;
+            margin-bottom: 70px;
+
+            a {
                 text-decoration: none;
             }
 
@@ -38,24 +42,29 @@
         .cards {
             min-height: 1035px;
             width: auto;
-            display: grid;
+            display: flex;
             grid-template-columns: 350px 350px 350px;
             grid-template-rows: 498px 498px;
             gap: 60px;
             margin-top: 74px;
+            margin: auto;
+            justify-content: center;
 
             .card {
+                max-width: 350px;
+                min-height: 498px;
 
                 .burger_image {
-                    max-height: 350px;
                     min-height: 350px;
+                    object-fit: cover;
+
                     background-image: url(/Images/burger_image.png);
                     background-size: cover;
                     display: flex;
                     align-items: flex-end;
                     justify-content: flex-start;
-                    
-                    p{
+
+                    p {
                         display: none;
                     }
 
@@ -70,32 +79,33 @@
                         color: $white;
                         border: none;
 
-                        &:hover{
+                        &:hover {
                             background-color: aqua;
                             color: orangered;
                         }
                     }
                 }
 
-                .burger_image:hover{
+                .burger_image:hover {
                     background-image: url(/Images/green_background_image.png), url(/Images/burger_image.png);
-                    button{
+
+                    button {
                         display: none;
                     }
-                    
+
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
-                    a{
+                    a {
                         text-decoration: none;
                     }
 
-                    p{
+                    p {
                         display: inline;
                         text-align: center;
 
-                        
+
                     }
 
                 }
@@ -123,7 +133,5 @@
 
 
     }
-
-
-
+    
 }
