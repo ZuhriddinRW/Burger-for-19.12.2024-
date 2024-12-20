@@ -3,10 +3,17 @@ header {
     background-image: url(/Images/header_background_image.png);
     background-size: cover;
     margin: auto;
+    width: 100%;
 
     .container {
         min-height: 90px;
         margin: auto;
+        text-align: center;
+
+        button{
+            margin: auto;
+        }
+
 
 
         nav {
